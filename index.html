@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Title</title>
+
+    <!--Style CSS-->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    
+    <section class="section-header">
+
+        <div class="header-container">
+            <div class="header-logo">
+                <h1>facebook</h1>
+                <!-- <img id="logo_img" src="./logo/Facebook_Logo_2015.png" alt="Facebook_Logo_2015"> -->
+            </div>
+            <div class="header-login">
+                <div class="username">
+                    <label>Email or phone</label>
+                    <input>
+                </div>
+                <div class="password">
+                    <label>Password</label>
+                    <input type="password">
+                    <a class="forgotten">Forgotten Account?</a>
+                </div>
+                <div class="header_button">
+                    <button class="login_btn">Log in</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="main">
+
+        <div class="main-container">
+            <div class="main-intro">
+                <h3>Facebook helps you connect and share with the people in your life.</h3>
+            </div>
+            
+            <div class="form-container">
+                <h1 class="form_title">Create an account</h1>
+                <p class="form_subTitle">It's free and always will be.</p>   
+
+                <div class="inputs">
+                    <div class="input-container">
+                        <input class="f_input" id="firstname" type="text" placeholder=" Firstname">
+                        <input class="f_input" id="Surname" type="text" placeholder=" Surname"> 
+                    </div>
+
+                    <div class="input-container1">
+                        <input class="f_input" id="mobile_email" type="text" placeholder=" Mobile number or email address">
+                        <input class="f_input" id="signUp_password" type="password" placeholder=" password" >
+                    </div>
+                </div>
+
+                <label class="form_label">Birthday</label> 
+                <div class="birth_input">
+                    <form>
+                        <span><select name="day" id="day"></select></span>
+                        <span><select name="month" id="month"></select></span>
+                        <span><select name="year" id="year"></select></span>
+                    </form>
+                    <a>Why do i need to provide my date of birth?</a>
+                </div>
+
+                <div class="form_gender">
+                    <input id="female_radio" type="radio"> 
+                    <label class="form_label">Female</label> 
+                    <input id="male_radio" type="radio"> 
+                    <label class="form_label">Male</label> 
+                </div>
+
+                <p class="form_paragragh">
+                    By clicking create account, you agree to our Terms and confirm that you have read our Data Policy, including our Cookie Use Policy. You may receive SMS message notifications from Facebook and can opt at any time.
+                </p>
+
+                <button class="form_button">
+                    Create account
+                </button>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
